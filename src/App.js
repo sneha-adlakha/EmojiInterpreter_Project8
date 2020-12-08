@@ -34,7 +34,7 @@ export default function App() {
       <h1>Input Emoji</h1>
       <input onChange={emojiEventHandler}></input>
       <h3>{meaning}</h3>
-      <h3>enojis we know</h3>
+      <h3>emojis we know</h3>
       {
         emojiList.map(function(emoji)
         {
