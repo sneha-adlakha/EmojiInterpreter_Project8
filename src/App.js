@@ -31,7 +31,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>Input Emoji</h1>
+      <h2>Type Emoji or just click on any emoji</h2>
       <input onChange={emojiEventHandler}></input>
       <h3>{meaning}</h3>
       <h3>emojis we know</h3>
