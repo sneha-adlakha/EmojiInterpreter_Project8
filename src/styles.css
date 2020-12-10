@@ -1,10 +1,12 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: yellow;
 }
 input {
   padding: 1rem;
   width: 80%;
   border-radius: 10px;
+}
+body {
+  background-color: yellow;
 }
