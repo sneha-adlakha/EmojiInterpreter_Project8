@@ -33,7 +33,7 @@ export default function App() {
       <h2>Input Your Emoji or Just Click any one below </h2>
       <input onChange={emojiEventHandler}></input>
       <h3>{meaning}</h3>
-      <h3>enojis we know</h3>
+      <h3>:-Emojis we know:-</h3>
       {emojiList.map(function (emoji) {
         return (
           <span
